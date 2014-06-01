@@ -14,7 +14,7 @@ A boilerplate set up for developing intelligent Laravel applications.
   * Livereload of browser on save
   * Custom tasks (eg: minify JavaScript) are simply added
 
-## Dev Environment
+### Dev Environment
 
 This guide is intended for Mac OS X users.
 
