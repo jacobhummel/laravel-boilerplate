@@ -50,4 +50,4 @@ Go to the `laravel-boilerplate` directory and install missing node modules
 
 ## Problems?
 
-This is simply written from memory.  When (not if) you run into problems, let Jacob know and he will update the README.
+This is simply written from memory.  IF you run into problems, let Jacob know and he will update the README.
