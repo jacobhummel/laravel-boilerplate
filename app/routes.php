@@ -13,5 +13,9 @@
 
 Route::get('/', function()
 {
-	return View::make('pages.home');
+	$data = array(
+		'script'	=>	'home'
+	);
+
+	return View::make('pages.home')->with($data);
 });

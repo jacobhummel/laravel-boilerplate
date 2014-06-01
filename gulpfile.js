@@ -1,9 +1,8 @@
 /*
-    See dev dependencies https://gist.github.com/isimmons/8927890
     Compiles less to compressed css with autoprefixing
     Livereloads on changes to coffee, less, and blade templates
     Runs PHPUnit tests
-    Watches sass, coffee, blade, and phpunit
+    Watches less, js, blade, and phpunit
     Default tasks less, phpunit, watch
 */
 
@@ -25,7 +24,9 @@ var assetDir = 'app/assets';
 
 //Target Asset directories
 var targetCSSDir = 'public/css';
-var targetJSDir = 'public/js';
+
+// js directory
+var jsDir = 'public/js';
 
 // blade directory
 var bladeDir = 'app/views';
@@ -41,17 +42,16 @@ gulp.task('less', function() {
         .pipe(notify('CSS compiled, prefixed, and minified.'));
 });
 
-gulp.task('concat', function() {
-  gulp.src(assetDir + '/js/**/*.js')
-    .pipe(concat('globals.js'))
-    .pipe(gulp.dest(targetJSDir))
-    .pipe(livereload(server))
-    .pipe(notify('JS concatenated.'));
-});
 
 /* Blade Templates */
 gulp.task('blade', function() {
     return gulp.src(bladeDir + '/**/*.blade.php')
+        .pipe(livereload(server));
+});
+
+/* JS */
+gulp.task('js', function() {
+    return gulp.src(jsDir + '/**/*.js')
         .pipe(livereload(server));
 });
 
@@ -74,10 +74,11 @@ gulp.task('watch', function() {
 
         gulp.watch(bladeDir + '/**/*.blade.php', ['blade']);
         gulp.watch(assetDir + '/**/*.less', ['less']);
+        gulp.watch(jsDir + '/**/*.js', ['js']);
     });
 
     gulp.watch('app/**/*.php', ['phpunit']);
 });
 
 /* Default Task */
-gulp.task('default', ['less', 'concat', 'phpunit', 'watch']);
+gulp.task('default', ['less', 'phpunit', 'watch']);
