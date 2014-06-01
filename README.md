@@ -7,7 +7,7 @@ A boilerplate set up for developing intelligent Laravel applications.
 * [Laravel 4](http://laravel.com/)
   * Default Laravel folder structure
   * Views included to show ideal Blade templating setup
-* [Gulpjs](http://gulpjs.com/)
+* [GulpJS](http://gulpjs.com/)
   * Compiling Less files automatically (easily changed for Sass)
   * Autoprefixing and minifying CSS on save
   * Automatically run unit tests on save
