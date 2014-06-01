@@ -28,7 +28,6 @@ You need to take care of a couple of things before getting started.
   * Laravel 4 requires PHP-Mcrypt for it's authentication/encryption features.
 * [Install Nodejs](http://nodejs.org/)
   *   Install gulpjs `npm install -g gulpjs`
-* [Install Laravel Installer](http://laravel.com/docs/installation)
 * [Install Livereload browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions)
 
 ### Installation
