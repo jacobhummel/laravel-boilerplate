@@ -1,6 +1,6 @@
 # Laravel-Boilerplate
 
-A boilerplate set up for developing intelligent Laravel applications.
+A boilerplate set up for developing intelligent Laravel 4.2 applications.
 
 ###Features
 
