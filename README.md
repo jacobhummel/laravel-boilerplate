@@ -1,10 +1,10 @@
 # Laravel-Boilerplate
 
-A boilerplate set up for developing intelligent Laravel 4.2 applications.
+A boilerplate set up for developing intelligent Laravel applications.
 
 ###Features
 
-* [Laravel 4](http://laravel.com/)
+* [Laravel 4.2](http://laravel.com/)
   * Default Laravel folder structure
   * Views included to show ideal Blade templating setup
 * [GulpJS](http://gulpjs.com/)
