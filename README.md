@@ -12,7 +12,7 @@ A boilerplate set up for developing intelligent Laravel applications.
   * Autoprefixing and minifying CSS
   * Minify and concat JS
   * Livereload of browser on save
-  * Run phpunit tests with 'gulp phpunit'
+  * Run phpunit tests with `gulp phpunit`
 
 ### Dev Environment
 
