@@ -9,10 +9,10 @@ A boilerplate set up for developing intelligent Laravel applications.
   * Views included to show ideal Blade templating setup
 * [GulpJS](http://gulpjs.com/)
   * Compiling Less files automatically (easily changed for Sass)
-  * Autoprefixing and minifying CSS on save
-  * Automatically run unit tests on save
+  * Autoprefixing and minifying CSS
+  * Minify and concat JS
   * Livereload of browser on save
-  * Custom tasks (eg: minify JavaScript) are simply added
+  * Run phpunit tests with 'gulp phpunit'
 
 ### Dev Environment
 
