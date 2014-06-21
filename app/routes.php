@@ -11,11 +11,4 @@
 |
 */
 
-Route::get('/', function()
-{
-	$data = array(
-		'script'	=>	'home'
-	);
-
-	return View::make('pages.home')->with($data);
-});
+Route::get('/', 'HomeController@showHome');
