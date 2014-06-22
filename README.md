@@ -44,8 +44,8 @@ Go to the `laravel-boilerplate` directory and install missing node modules
 
 1. In MAMP settings, set the document root to the `public` folder inside the `laravel-boilerplate` directory.
 2. Open the Terminal, cd to the `laravel-boilerplate` directory and type `gulp`.
-3. Enable the Livereload extension in your browser to enjoy automatic page-refreshing.
-4. Go to `localhost` (or your default MAMP port) to run the application.
+3. Go to `localhost` (or your default MAMP port) to run the application.
+4. Enable the Livereload extension in your browser to enjoy automatic page-refreshing.
 
 ## Problems?
 
